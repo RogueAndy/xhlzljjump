@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
-  s.name         = "xinzljjump"
-  s.version      = "0.0.1"
+  s.name         = "xhlzljjump"
+  s.version      = "0.0.2"
   s.summary      = "jump"
   s.description  = <<-DESC
                     关于jump
@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.author       = { "Rogue" => "619455850@qq.com" }
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = "9.0"
-  s.source       = { :git => "https://github.com/RogueAndy/xinzljjump", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/RogueAndy/xhlzljjump", :tag => "#{s.version}" }
 
-  s.source_files  = "xinzljjump/*"
-  s.public_header_files = "xinzljjump/*.h"
+  s.source_files  = "xhlzljjump/*"
+  s.public_header_files = "xhlzljjump/*.h"
 
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
